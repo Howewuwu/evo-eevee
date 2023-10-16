@@ -13,6 +13,16 @@
 		9CED00892ADAED36000A87F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CED00872ADAED36000A87F1 /* Main.storyboard */; };
 		9CED008B2ADAED36000A87F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CED008A2ADAED36000A87F1 /* Assets.xcassets */; };
 		9CED008E2ADAED36000A87F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CED008C2ADAED36000A87F1 /* LaunchScreen.storyboard */; };
+		9CED00972ADAED4A000A87F1 /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = 9CED00962ADAED4A000A87F1 /* SwiftyGif */; };
+		9CED00992ADAED4A000A87F1 /* SwiftyGif-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 9CED00982ADAED4A000A87F1 /* SwiftyGif-Dynamic */; };
+		9CED009B2ADAF636000A87F1 /* eevee.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9CED009A2ADAF636000A87F1 /* eevee.gif */; };
+		9CED009D2ADAF7A3000A87F1 /* glaceon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9CED009C2ADAF7A3000A87F1 /* glaceon.gif */; };
+		9CED009F2ADAF7AD000A87F1 /* leafeon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9CED009E2ADAF7AD000A87F1 /* leafeon.gif */; };
+		9CED00A12ADAF7B5000A87F1 /* umbreon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9CED00A02ADAF7B5000A87F1 /* umbreon.gif */; };
+		9CED00A32ADAF7BF000A87F1 /* espeon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9CED00A22ADAF7BF000A87F1 /* espeon.gif */; };
+		9CED00A52ADAF7C8000A87F1 /* flareon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9CED00A42ADAF7C8000A87F1 /* flareon.gif */; };
+		9CED00A72ADAF7D3000A87F1 /* vaporeon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9CED00A62ADAF7D3000A87F1 /* vaporeon.gif */; };
+		9CED00A92ADAF7DF000A87F1 /* jolteon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9CED00A82ADAF7DF000A87F1 /* jolteon.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,14 @@
 		9CED008A2ADAED36000A87F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CED008D2ADAED36000A87F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CED008F2ADAED36000A87F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CED009A2ADAF636000A87F1 /* eevee.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = eevee.gif; path = "evo-eevee/GIFs/eevee.gif"; sourceTree = SOURCE_ROOT; };
+		9CED009C2ADAF7A3000A87F1 /* glaceon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = glaceon.gif; path = "evo-eevee/GIFs/glaceon.gif"; sourceTree = SOURCE_ROOT; };
+		9CED009E2ADAF7AD000A87F1 /* leafeon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = leafeon.gif; path = "evo-eevee/GIFs/leafeon.gif"; sourceTree = SOURCE_ROOT; };
+		9CED00A02ADAF7B5000A87F1 /* umbreon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = umbreon.gif; path = "evo-eevee/GIFs/umbreon.gif"; sourceTree = SOURCE_ROOT; };
+		9CED00A22ADAF7BF000A87F1 /* espeon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = espeon.gif; path = "evo-eevee/GIFs/espeon.gif"; sourceTree = SOURCE_ROOT; };
+		9CED00A42ADAF7C8000A87F1 /* flareon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = flareon.gif; path = "evo-eevee/GIFs/flareon.gif"; sourceTree = SOURCE_ROOT; };
+		9CED00A62ADAF7D3000A87F1 /* vaporeon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = vaporeon.gif; path = "evo-eevee/GIFs/vaporeon.gif"; sourceTree = SOURCE_ROOT; };
+		9CED00A82ADAF7DF000A87F1 /* jolteon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = jolteon.gif; path = "evo-eevee/GIFs/jolteon.gif"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CED00972ADAED4A000A87F1 /* SwiftyGif in Frameworks */,
+				9CED00992ADAED4A000A87F1 /* SwiftyGif-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +83,24 @@
 				9CED008A2ADAED36000A87F1 /* Assets.xcassets */,
 				9CED008C2ADAED36000A87F1 /* LaunchScreen.storyboard */,
 				9CED008F2ADAED36000A87F1 /* Info.plist */,
+				9CED00AA2ADAF7E5000A87F1 /* GIFs */,
 			);
 			path = "evo-eevee";
+			sourceTree = "<group>";
+		};
+		9CED00AA2ADAF7E5000A87F1 /* GIFs */ = {
+			isa = PBXGroup;
+			children = (
+				9CED009A2ADAF636000A87F1 /* eevee.gif */,
+				9CED009C2ADAF7A3000A87F1 /* glaceon.gif */,
+				9CED009E2ADAF7AD000A87F1 /* leafeon.gif */,
+				9CED00A02ADAF7B5000A87F1 /* umbreon.gif */,
+				9CED00A22ADAF7BF000A87F1 /* espeon.gif */,
+				9CED00A42ADAF7C8000A87F1 /* flareon.gif */,
+				9CED00A62ADAF7D3000A87F1 /* vaporeon.gif */,
+				9CED00A82ADAF7DF000A87F1 /* jolteon.gif */,
+			);
+			path = GIFs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +119,10 @@
 			dependencies = (
 			);
 			name = "evo-eevee";
+			packageProductDependencies = (
+				9CED00962ADAED4A000A87F1 /* SwiftyGif */,
+				9CED00982ADAED4A000A87F1 /* SwiftyGif-Dynamic */,
+			);
 			productName = "evo-eevee";
 			productReference = 9CED007E2ADAED36000A87F1 /* evo-eevee.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +151,9 @@
 				Base,
 			);
 			mainGroup = 9CED00752ADAED36000A87F1;
+			packageReferences = (
+				9CED00952ADAED4A000A87F1 /* XCRemoteSwiftPackageReference "SwiftyGif" */,
+			);
 			productRefGroup = 9CED007F2ADAED36000A87F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +168,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CED00A32ADAF7BF000A87F1 /* espeon.gif in Resources */,
 				9CED008E2ADAED36000A87F1 /* LaunchScreen.storyboard in Resources */,
+				9CED009F2ADAF7AD000A87F1 /* leafeon.gif in Resources */,
+				9CED00A12ADAF7B5000A87F1 /* umbreon.gif in Resources */,
+				9CED009D2ADAF7A3000A87F1 /* glaceon.gif in Resources */,
+				9CED00A92ADAF7DF000A87F1 /* jolteon.gif in Resources */,
 				9CED008B2ADAED36000A87F1 /* Assets.xcassets in Resources */,
+				9CED00A72ADAF7D3000A87F1 /* vaporeon.gif in Resources */,
 				9CED00892ADAED36000A87F1 /* Main.storyboard in Resources */,
+				9CED009B2ADAF636000A87F1 /* eevee.gif in Resources */,
+				9CED00A52ADAF7C8000A87F1 /* flareon.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +414,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9CED00952ADAED4A000A87F1 /* XCRemoteSwiftPackageReference "SwiftyGif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kirualex/SwiftyGif.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9CED00962ADAED4A000A87F1 /* SwiftyGif */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CED00952ADAED4A000A87F1 /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = SwiftyGif;
+		};
+		9CED00982ADAED4A000A87F1 /* SwiftyGif-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CED00952ADAED4A000A87F1 /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = "SwiftyGif-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9CED00762ADAED36000A87F1 /* Project object */;
 }
